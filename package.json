@@ -1,23 +1,27 @@
 {
   "name": "our_q",
   "version": "1.0.0",
-  "description": "website normal plugin",
+  "description": "website normal plugins",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/StopllL/our_q.git"
   },
   "keywords": [
-    "our_q",
-    "js"
+    "plugin",
+    "pagenation",
+    "swiper"
   ],
   "author": "white_g",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/StopllL/our_q/issues"
   },
-  "homepage": "https://github.com/StopllL/our_q#readme"
+  "homepage": "https://github.com/StopllL/our_q#readme",
+  "devDependencies": {
+    "webpack": "^3.10.0"
+  }
 }
