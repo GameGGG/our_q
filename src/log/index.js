@@ -109,6 +109,9 @@
 		}
 		return jojojo
 	}
+	Log.prototype.setProduction = function () {
+		CONFIG.mode = 'production'
+	}
 	Log.prototype.onlineDeBugger = function(config){
 		this.filterModule = null;
 		this.filterLevel = null;
